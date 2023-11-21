@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gps_reader"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "plotly",
+    "scipy",
+    "pandas",
+    "fitdecode",
+]
+
+[tool.setuptools]
+packages = ["gps_reader"]
